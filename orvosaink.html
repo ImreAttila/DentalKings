@@ -4,38 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orvosaink</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Orvosaink és asszisztenseink</title>
 </head>
 
 <body>
-
+    <header>
+        <h1 style="background-color: lightblue;">
+            <img src="/pictures/dental kings logo.png" alt="Dental Kings Fogászat és Fogtechnika">
+            <span style="font-size: medium;">Vecsés, Zöldfa utca 22.</span>
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Rólunk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="orvosaink.html">Orvosaink</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prices.html">Árlista</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Orvosaink és asszisztenseink</h1>
+    </header>
+    <h3>Orvosaink</h3>
     <div>
-        <button>
-            <div>
-                <a href="hedvig.html">
-                    <img style="box-shadow: greenyellow" width="100x150" src="/pictures/Hedvig.jpg" alt="Sáfár Hedvig" title="Sáfár Hedvig" >
-                   
-                </a>
-            </div>
-        </button>
-
-        <Button>
-            <div>
-                <img style="box-shadow: greenyellow" width="100x150" src="/pictures/Eszter.jpg" alt="Sáfár Eszter">
-                <span>Sáfár Eszter</span>
-            </div>
-        </Button>
-
-        <button>
-            <div>
-                <img style="box-shadow: greenyellow" width="100x150" src="/pictures/Attila.jpg" alt="Imre Attila">
-                <span>Imre Attila</span>
-            </div>
-        </button>
-
-
+        <a href="hedvig.html">
+            <figure>
+                <img width="150px" src="/pictures/Ancsi.jpg" alt="Sáfár Hedvig" title="Dr. Molnár-Szász Anita">
+                <figcaption>Dr. Molnár-Szász Anita</figcaption>
+            </figure>
+        </a>
     </div>
-
+    <h3>Asszisztenseink</h3>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <figure>
+                        <a href="hedvig.html">
+                            <img width="150px" src="/pictures/Hedvig.jpg" alt="Sáfár Hedvig" title="Sáfár Hedvig">
+                            <figcaption>Sáfár Hedvig</figcaption>
+                        </a>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <a href="hedvig.html">
+                            <img width="150px" src="/pictures/Hedvig.jpg" alt="Sáfár Hedvig" title="Sáfár Hedvig">
+                            <figcaption>Sáfár Hedvig</figcaption>
+                        </a>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <a href="hedvig.html">
+                            <img width="150px" src="/pictures/Hedvig.jpg" alt="Sáfár Hedvig" title="Sáfár Hedvig">
+                            <figcaption>Sáfár Hedvig</figcaption>
+                        </a>
+                    </figure>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
